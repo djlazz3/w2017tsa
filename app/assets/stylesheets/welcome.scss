@@ -1,3 +1,68 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+  	#custom-bootstrap-menu.navbar-default .navbar-brand {
+      color: rgba(255, 255, 255, 1);
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+  }
+  #custom-bootstrap-menu.navbar-default {
+      font-size: 22px;
+      background-color: rgba(0, 119, 255, 1);
+      background: -webkit-linear-gradient(top, rgba(82, 82, 82, 1) 0%, rgba(0, 119, 255, 1) 100%);
+      background: linear-gradient(to bottom, rgba(82, 82, 82, 1) 0%, rgba(0, 119, 255, 1) 100%);
+      border-width: 2px;
+      border-radius: 14px;
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(0, 119, 255, 1);
+      background: -webkit-linear-gradient(top, rgba(82, 82, 82, 1) 0%, rgba(0, 119, 255, 1) 100%);
+      background: linear-gradient(to bottom, rgba(82, 82, 82, 1) 0%, rgba(0, 119, 255, 1) 100%);
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+  #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(0, 234, 255, 1);
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+  #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+  #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(0, 234, 255, 1);
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-toggle {
+      border-color: #00eaff;
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+  #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+      background-color: #00eaff;
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+      background-color: #00eaff;
+  }
+  #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+  #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+      background-color: #0077ff;
+  }
+
+  	#container{
+  		border-width: thick;
+  		border-radius: 10px;
+  		border-color: #007be8;
+  		background-color: #000;
+  		border-style: solid;
+  		}
+  	.toptext{
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+  	}
+  	.titletext{
+  		font-family: 'Press Start 2P', cursive;
+  		color: lightblue;
+  		font-size: 30px;
+  	}
+  	.titletext.small{
+  		font-size: 20px;
+  	}
