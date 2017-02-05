@@ -24,16 +24,22 @@
 <body>
 
 
-	<div class="col-md-2">
+	<div class="col-md-1">
 		</div>
-	<div class="col-md-8">
+	<div class="col-md-10">
 	<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
     <div class="container-fluid">
-        <div class="navbar-header"><a class="navbar-brand" href="#">Our Augmented Reality</a>
+        <div class="navbar-header"><%= link_to "Augmented Reality", root_path, :class => "navbar-brand toptext"%>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
+        <ul class="nav navbar-nav nav navbar-left">
+        				<li><%= link_to "Our Chapter", "http://coralparktsa.herokuapp.com", class: :toptext%>
+        				</li>
+                        <li><%= link_to "Our School", "http://www.ramtech59.com/", class: :toptext%>
+                        </li>
+                    </ul>
             <ul class="nav navbar-nav nav navbar-right">
                 <li><%= link_to "Home", root_path, class: :toptext%>
                 </li>
